@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cadastro</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+        
+        <div class="card">
+            <h1>Cadastrar</h1>
+            <br>
+                <label class="label-float" for="fnome">Nome
+                    <input type="text" id="fnome" required name="fnome">
+                </label>
+                
+                <label class="label-float" for="fusu">Usuario
+                    <input type="text" id="fusu" required name="fusu">
+                </label>
+                
+                <label class="label-float" for="femail">Email
+                    <input type="email" id="femail" required name="femail">
+                </label>
+                
+                <label  class="label-float" for="fsenha">Senha
+                    <input type="password" id="fsenha" maxlength="6" required name="fsenha">                    
+                </label>
+                
+                <label class="label-float" for="fconf">Confirmar Senha
+                    <input type="password" id="fconf" maxlength="6" required name="fconf">
+                </label>
+                <br>
+                <input class="button" type="submit" value="Enviar" id="submit">
+        </div>
+</body>
+</html>
